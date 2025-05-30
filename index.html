@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Markdown Previewer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>📝 Markdown Previewer</h1>
+  </header>
+
+  <div class="hints">
+    Try: <code># Heading</code>, <code>**bold**</code>, <code>*italic*</code>, <code>- list</code>, <code>> blockquote</code>, <code>`inline code`</code>
+  </div>
+
+  <div class="container">
+    <textarea id="markdown">
+# Welcome to the Markdown Previewer!
+
+## Sub-heading
+
+**Bold Text**  
+*Italic Text*
+
+- List Item 1  
+- List Item 2  
+
+> A blockquote
+
+`inline code`
+    </textarea>
+
+    <div id="preview" class="preview"></div>
+  </div>
+
+  <footer>
+    Made with ❤️ by Sneha
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

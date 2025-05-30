@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #dbeafe, #f0f4ff);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #153672;
+}
+
+
+
+.hints {
+  background-color: #eef5ff;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #3b3b3b;
+}
+
+.hints code {
+  background-color: #dcefff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 160px);
+  padding: 1rem;
+  gap: 1rem;
+}
+
+textarea {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: none;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: monospace;
+  line-height: 1.5;
+}
+
+header h1 {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0;
+  padding: 0.5rem 0;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.preview {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.preview h1, .preview h2, .preview h3 {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.2rem;
+  color: #1f2937;
+}
+
+.preview p {
+  margin: 0.8rem 0;
+}
+
+.preview code {
+  background-color: #f4f4f4;
+  padding: 3px 6px;
+  border-radius: 4px;
+  color: #d63384;
+}
+
+.preview blockquote {
+  border-left: 4px solid #a0aec0;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #4b5563;
+  background: #f8fafc;
+  font-style: italic;
+}
+
+.preview ul {
+  margin: 0.8rem 0 0.8rem 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  background-color: #f1f5f9;
+  border-top: 1px solid #ccc;
+  color: #555;
+}
