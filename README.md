@@ -1,8 +1,6 @@
 ## Markdown Previewer
 A sleek and responsive markdown previewer with a modern dual-panel design.
 
-**Live Demo:** https://vedsneh.github.io/Markdown-Previewer/
-
 ## Features
 - **Dual panel layout** with smooth shadow & glassmorphism effect  
 - Left panel: Markdown input textarea  
